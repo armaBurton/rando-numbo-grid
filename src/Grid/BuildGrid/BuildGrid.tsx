@@ -13,8 +13,6 @@ export const BuildGrid = () => {
 
   const numArr: number[] = getNumbers();
 
-  console.log(`*** 11 *** numArr >`, numArr);
-
   return (
     <>
       {numArr.map((num, i) => {
