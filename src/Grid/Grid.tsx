@@ -5,8 +5,8 @@ export const Grid = () => {
 
   return (
     <section className="text-[3rem] font-bold grid grid-cols-3 grid-rows-3 gap-3">
-      {/* <section className="text-[3rem] font-bold grid grid-cols-3 grid-rows-3 gap-3"> */}
-      {tiles.map((t) => {
+      <BuildGrid />
+      {/* {tiles.map((t) => {
         return (
           <div
             key={t}
@@ -15,7 +15,7 @@ export const Grid = () => {
             <BuildGrid />
           </div>
         );
-      })}
+      })} */}
     </section>
   );
 };
