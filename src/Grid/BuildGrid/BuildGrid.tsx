@@ -18,7 +18,14 @@ export const BuildGrid = () => {
   return (
     <>
       {numArr.map((num, i) => {
-        return <div key={`${num}${i}`}>{num}</div>;
+        return (
+          <div
+            className="transition ease-in-out w-[75px] h-[75px] bg-slate-300 flex justify-center items-center cursor-pointer hover:text-[3.5rem] duration-300"
+            key={`${num}${i}`}
+          >
+            {num}
+          </div>
+        );
       })}
     </>
   );
